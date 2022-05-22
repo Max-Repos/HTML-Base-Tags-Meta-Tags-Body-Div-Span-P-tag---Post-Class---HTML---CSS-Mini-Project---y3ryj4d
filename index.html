@@ -1,1 +1,218 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+body {
+  font-family: "Lato", sans-serif;
+}
 
+/* Fixed sidenav, full height */
+.sidenav {
+  height: 100%;
+  width: 300px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #00008B;
+
+}
+
+/* Style the sidenav links and the dropdown button */
+.sidenav a, .dropdown-btn {
+ padding-left:20px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  display: block;
+  border: none;
+  background: #00008B;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+  position:relative;
+  font-size:12px;
+}
+
+.dropdown-btn-i {
+ padding-left:20px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #1589FF;
+  display: block;
+  border: none;
+  background: #00008B;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+  position:relative;
+  font-size:12px;
+}
+
+
+/* Main content */
+.main {
+  margin-left: 300px; /* Same as the width of the sidenav */
+  font-size: 20px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+/* Add an active class to the active dropdown button */
+.active {
+  background-color: #00008B;
+  color: white;
+}
+
+/* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
+.dropdown-container {
+  display: none;
+  background-color: #00008B;
+}
+.dropdown-container1{
+  display: none;
+  background-color: #00008B;
+  padding-left: 20px;
+}
+/* Optional: Style the caret down icon */
+.fa-caret-right {
+  float: left;
+}
+.icon {
+  margin-right: 30px;
+  padding: 0px 5px 5px 120px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 600px;
+}
+.text2{
+font-size:15px
+}
+.text3{
+color:#00BFFF;
+padding-left:30px;
+}
+/* Some media queries for responsiveness */
+</style>
+</head>
+<body>
+
+<div class="sidenav">
+    <p style="padding-left:10px; color:white;">Course Notes</p>
+    <button class="dropdown-btn">Fullstack Web Development
+        <i class="fa fa-caret-right"></i>
+    </button>
+    <div class="dropdown-container" style="padding-left:10px">
+
+        <div  >
+        <button  class="dropdown-btn" >HTML
+            <i class="fa fa-caret-right" ></i>
+        </button>
+            <div class="dropdown-container1">
+                <button class="dropdown-btn-i" >HTML Fundamentals
+                    <i class="fa fa-caret-right"></i>
+                </button>
+                <button class="dropdown-btn-i" >Tags and Attributes
+                    <i class="fa fa-caret-right"></i>
+                </button>
+                <button class="dropdown-btn-i" >Accessibility
+                    <i class="fa fa-caret-right"></i>
+                </button>
+                <button class="dropdown-btn-i" >Graphics
+                    <i class="fa fa-caret-right"></i>
+                </button>
+            </div>
+        </div>
+        <div >
+            <button class="dropdown-btn">CSS
+                <i class="fa fa-caret-right"></i>
+            </button>
+        </div>
+        <div >
+            <button class="dropdown-btn">Javascript
+                <i class="fa fa-caret-right"></i>
+            </button>
+        </div>
+        <div >
+            <button class="dropdown-btn">React
+                <i class="fa fa-caret-right"></i>
+            </button>
+        </div>
+    </div>
+
+
+<div class="icon">
+    <a href="https://www.Google.com" target="_blank"><img src="./help.png" ></a>
+</div>
+</div>
+
+<div class="main">
+    <p>HTML<span ><img src='copy.png'/></span></p>
+    <hr size="1" width="8%" color="#1589FF" style="margin-left:10px">
+    <p>HTML Fundamentals<span ><img src='copy.png'/></span></p>
+    <p class="text2">HTML can be written and edited using many different editors like Dreamweaver and Visual Studio</p>
+    <p class="text2" style="font-size:12px; margin-top:-1.0em; ">However, in this tutorial, we use a plain text editor(like Notepad) to edit HTML.We believe using a plain text editor is the best way to learn HTML</p>
+    <p>Basic Structure for an HTML<span ><img src='copy.png'/></span></p>
+    <div class="text3">
+        <p style="font-size:12px; margin-top:-0.7em;">1.Introduction</p>
+        <p style="font-size:12px; margin-top:-0.7em;">2.Who is web developer?</p>
+        <p style="font-size:12px; margin-top:-0.7em;">3.Types of web developer</p>
+        <p style="font-size:12px; margin-top:-0.7em;">4.What are the skills required to become a web developer</p>
+        <p style="font-size:12px; margin-top:-0.7em;">5.HTML</p>
+        <p style="font-size:12px; margin-top:-0.7em;">6.html tags</p>
+        <p style="font-size:12px; margin-top:-0.7em;">7.What is an HTML Elment?</p>
+        <p style="font-size:12px; margin-top:-0.7em;">8.Nested HTML Element</p>
+        <p style="font-size:12px; margin-top:-0.7em;">9.HTML Page Structure</p>
+        <p style="font-size:12px; margin-top:-0.7em;">10.HTML Basic Examples:HTML Documents
+        <p style="font-size:12px; margin-top:-0.7em; padding-left:10px">  HTML Headings,paragraphs,links,images,comment,src attribute</p>
+        </p>
+        <p style="font-size:12px; margin-top:-1.0em; ">11.HTML Attributes href,src,style</p>
+        <p style="font-size:12px; margin-top:-0.7em; ">12.HTML List</p>
+        <p style="font-size:12px; margin-top:-0.7em; ">13.HTML Block and Inline Elements</p>
+        <p style="font-size:12px; margin-top:-0.7em; ">14.HTML CLASS AND ID</p>
+        <p style="font-size:12px; margin-top:-0.7em; ">15.HTML Style-CSS</p>
+        <p style="font-size:12px; margin-top:-0.7em; ">16.The HTML DOM(Document Object Model)</p>
+    </div>
+<p>
+    <p>1.Introduction</p><p style="font-size:11px">
+    In this course , you'll learn all about becoming a web developer,from the responsibilities that a web developer performs
+    on a day to day basis to the set of skills that you'd need to succeed in such a role.We'll introduce you to the fundamental
+    building blocks of the web and make sure that you leave this course having developed your very first website!.
+    </p>
+    <a href="https://www.Google.com" target="_blank"><img src="./message.png" style="float:right;position:relative"></a>
+
+</p>
+
+    <p>
+    <p>2.Who is a web developer?</p>
+    <p style="font-size:12px; margin-top:-1.0em; ">
+    Much like how curious boy takes pleasure in makng toys by joining LEGO blocks--and then experiences is similar joy
+    in taking things apart to see how they are made,a
+    </p>
+    </p>
+</div>
+
+
+<script>
+/* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
+var dropdown = document.getElementsByClassName("dropdown-btn");
+var i;
+
+for (i = 0; i < dropdown.length; i++) {
+  dropdown[i].addEventListener("click", function() {
+  this.classList.toggle("active");
+  var dropdownContent = this.nextElementSibling;
+  if (dropdownContent.style.display === "block") {
+  dropdownContent.style.display = "none";
+  } else {
+  dropdownContent.style.display = "block";
+  }
+  });
+}
+</script>
+
+</body>
+</html>
